@@ -1,7 +1,9 @@
 class Solution {
     public int trap(int[] height) {
+        // Check if empty
         if(height == null)
             return 0;
+        
         int left = 0;
         int right = height.length -1;
         
@@ -11,9 +13,12 @@ class Solution {
         int sum = 0;
         
         while(left < right){
+            // Select smaller height
             if(left_max < right_max){
                 left++;
+                // Max of prev and new height
                 left_max = Math.max(left_max, height[left]);
+                // Diff is how much water you can hold
                 sum += left_max - height[left];
             }
             else{
