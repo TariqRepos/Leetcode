@@ -1,4 +1,5 @@
 class Solution {
+    // TC: O(N^2 * 3^L)
     HashSet<List<Integer>> visited = new HashSet<>();
     
     public boolean exist(char[][] board, String word) {        
