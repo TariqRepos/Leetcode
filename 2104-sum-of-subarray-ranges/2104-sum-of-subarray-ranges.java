@@ -9,8 +9,6 @@ class Solution {
         long sum = 0L;
         
         for(int i = 0; i <= n; i++){
-            System.out.println();
-            System.out.println("i: " + i);
             while (!stack.isEmpty() && (i==n || 
                     (min && nums[stack.peek()] > nums[i]) ||  // MIN sum
                     (!min && nums[stack.peek()] < nums[i]))){ // MAX sum
