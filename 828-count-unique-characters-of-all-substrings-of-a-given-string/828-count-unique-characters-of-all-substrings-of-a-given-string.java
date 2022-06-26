@@ -9,11 +9,11 @@ class Solution {
         
         for (int i = 0; i < N; ++i) {
             int c = S.charAt(i) - 'A';
-            res = (res + (i - index[c][1]) * (index[c][1] - index[c][0]) % mod) % mod;
+            res = res + (i - index[c][1]) * (index[c][1] - index[c][0]);
             index[c] = new int[] {index[c][1], i};
         }
         for (int c = 0; c < 26; ++c)
-            res = (res + (N - index[c][1]) * (index[c][1] - index[c][0]));
+            res = res + (N - index[c][1]) * (index[c][1] - index[c][0]);
         return res;
     }
 }
