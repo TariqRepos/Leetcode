@@ -24,9 +24,6 @@ class Solution {
         for (int i=0; i<paint.length; i++) {
             int start = paint[i][0];
             int end = paint[i][1];
-            System.out.println("ind  : " + i);
-            System.out.println("start: " + start);
-            System.out.println("end  : " + end);
             
             while (start < end) {
                 // Check how far to increment to next unpainted space
