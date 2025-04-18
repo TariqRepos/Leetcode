@@ -1,12 +1,13 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        int l = 0;
-        int r = 1;
+        int l = 0; // buy
+        int r = 1; // sell
         int maxProfit = 0;
 
         while (r < prices.length) {
-            int profit = prices[r] - prices[l];
-            if (profit > 0) {
+            // Is it profitable? buy low & sell high
+            if (prices[l] <= prices[r]) {
+                int profit = prices[r] - prices[l];
                 maxProfit = Math.max(profit, maxProfit);
                 r++;
             } else {
