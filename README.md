@@ -14,6 +14,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0217-contains-duplicate](https://github.com/TariqRepos/Leetcode/tree/master/0217-contains-duplicate) |
 | [0238-product-of-array-except-self](https://github.com/TariqRepos/Leetcode/tree/master/0238-product-of-array-except-self) |
 | [0954-maximum-sum-circular-subarray](https://github.com/TariqRepos/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+| [1020-longest-turbulent-subarray](https://github.com/TariqRepos/Leetcode/tree/master/1020-longest-turbulent-subarray) |
 ## Hash Table
 |  |
 | ------- |
@@ -29,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0053-maximum-subarray](https://github.com/TariqRepos/Leetcode/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/TariqRepos/Leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0954-maximum-sum-circular-subarray](https://github.com/TariqRepos/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+| [1020-longest-turbulent-subarray](https://github.com/TariqRepos/Leetcode/tree/master/1020-longest-turbulent-subarray) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -51,4 +53,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0954-maximum-sum-circular-subarray](https://github.com/TariqRepos/Leetcode/tree/master/0954-maximum-sum-circular-subarray) |
+## Sliding Window
+|  |
+| ------- |
+| [1020-longest-turbulent-subarray](https://github.com/TariqRepos/Leetcode/tree/master/1020-longest-turbulent-subarray) |
 <!---LeetCode Topics End-->
